@@ -17,7 +17,7 @@ var CoreApp = createElement("CoreApp", "div", "body", {
 });
 
 var NavBar = createElement("NavBar", "div", CoreApp, {
-  "position": "sticky",
+  "position": "fixed",
   "width": "100%",
   "height": "150px",
   //"left": "8px",
