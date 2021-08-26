@@ -6,19 +6,21 @@ var StyleColors = {
 setCSS("body", "background-color", StyleColors.Page);
 
 var CoreApp = createElement("CoreApp", "div", "body", {
+  "position": "relative",
   "width": "800px",
+  "height": "5000px",
   "max-width": "100%",
   "left": "50%",
   "top": "0px",
   "transform": "translateX(-50%)"
 });
 
-createElement("NavBar", "div", CoreApp, {
+var NavBar = createElement("NavBar", "div", CoreApp, {
   "position": "sticky",
   "width": "calc(100% - 16px)",
   "height": "150px",
   "left": "8px",
   "top": "8px",
-  "background-color": StyleColors.NavBar
+  "background-color": StyleColors.NavBar,
+  "border-radius": "8px"
 });
-
