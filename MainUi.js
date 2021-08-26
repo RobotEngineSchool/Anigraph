@@ -1,6 +1,8 @@
 var StyleColors = {
-  PageColor = "#E5E5E5",
+  PageColor: "#E5E5E5",
 };
+
+setCSS("body", "background-color", StyleColors.PageColor);
 
 createElement("CoreApp", "div", "body", {
   "width": "800px",
@@ -9,6 +11,6 @@ createElement("CoreApp", "div", "body", {
   "height": "100vh",
   "left": "50%",
   "transform": "translateX(-50%)",
-  "background-color": "blue"
+  "background-color": StyleColors.PageColor
 });
 
