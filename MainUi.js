@@ -12,7 +12,8 @@ var CoreApp = createElement("CoreApp", "div", "body", {
   "max-width": "100%",
   "left": "50%",
   "top": "0px",
-  "transform": "translateX(-50%)"
+  "transform": "translateX(-50%)",
+  "background-color": "blue",
 });
 
 var NavBar = createElement("NavBar", "div", CoreApp, {
