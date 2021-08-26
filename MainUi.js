@@ -10,7 +10,6 @@ createElement("CoreApp", "div", "body", {
   "top": "0px",
   "height": "100vh",
   "left": "50%",
-  "transform": "translateX(-50%)",
-  "background-color": StyleColors.PageColor
+  "transform": "translateX(-50%)"
 });
 
