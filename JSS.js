@@ -1,3 +1,4 @@
+try {
 function createElement(ElementName, ElementType, SetParent, Attributes, NS) {
     "use strict";
 
@@ -346,3 +347,4 @@ find("body").addEventListener("keydown", function(event) {
 const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
 }
+} catch(err) { prompt(err) }
