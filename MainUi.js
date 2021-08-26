@@ -17,11 +17,11 @@ var CoreApp = createElement("CoreApp", "div", "body", {
 });
 
 var NavBar = createElement("NavBar", "div", CoreApp, {
-  "position": "fixed",
+  "position": "sticky",
   "width": "100%",
   "height": "150px",
   //"left": "8px",
-  //"top": "8px",
+  "top": "0px",
   "background-color": StyleColors.NavBar,
   "border-radius": "8px"
 });
